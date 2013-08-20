@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.1.5)  19 AUG 2013 18:54
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.1.5)  20 AUG 2013 18:37
 entering extended mode
 **resume.tex
-(C:\Users\dave\Documents\latex\resume.tex
+(C:\Users\dave\Documents\github\latex_resume\resume.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -48,7 +48,7 @@ File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(C:\Users\dave\Documents\latex\resume.aux)
+(C:\Users\dave\Documents\github\latex_resume\resume.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
@@ -85,28 +85,28 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  [1
 
 ]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 91--92
+Overfull \hbox (6.0pt too wide) in paragraph at lines 92--93
 [][][][][][][]  
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 105--106
+Overfull \hbox (6.0pt too wide) in paragraph at lines 106--107
 [][][][][][][]  
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 118--119
+Overfull \hbox (6.0pt too wide) in paragraph at lines 119--120
 [][][][][][][]  
  []
 
-[2] (C:\Users\dave\Documents\latex\resume.aux) ) 
+[2] (C:\Users\dave\Documents\github\latex_resume\resume.aux) ) 
 Here is how much of TeX's memory you used:
  556 strings out of 494046
- 7499 string characters out of 3148414
+ 7597 string characters out of 3148414
  59246 words of memory out of 3000000
  3904 multiletter control sequences out of 15000+200000
  7337 words of font info for 26 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 23i,7n,22p,461b,304s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 23i,7n,22p,461b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on resume.dvi (2 pages, 10636 bytes).
+Output written on resume.dvi (2 pages, 11264 bytes).

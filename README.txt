@@ -1,0 +1,1 @@
+Project to host Latex Resume and other job search items.  I adapted the resume template from http://www.sudo.ws/todd/resume.html
