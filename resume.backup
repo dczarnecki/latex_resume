@@ -1,0 +1,123 @@
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2007-2010 Todd C. Miller <Todd.Miller@courtesan.com> http://www.courtesan.com/todd
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,10pt]{article}
+
+%-----------------------------------------------------------
+\usepackage[empty]{fullpage}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.80}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins to 0.5in on all sides
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\evensidemargin}{-0.45in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.65in}
+\addtolength{\textheight}{1.0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+\textbf{\large David Czarnecki}  & 860-874-2011 (cell)\\
+782 N Wakefield St &  me@daveczarnecki.com\\
+Arlington, VA 22203& \\
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+
+\resheading{Work Experience}
+\begin{itemize}
+\item
+	\ressubheading{Solers, Inc.}{Arlington, VA}{System Engineer}{Aug. 2009 - Present}
+	\begin{itemize}
+		\resitem{Lead Test Engineer Enterprise Messaging 4.1 - Machine to Machine messaging system implementing WSE and WSN base notification standards; combing functionality of two legacy machine messaging systems}
+		  \begin{itemize}
+		    \item{Developed initial functional requirements for system by analyzing documentation of legacy systems and communicating with customer base}
+		    \item{Provided techinical knowledge and support for government acceptance testing}
+		    \item{Expanded automated testing interfaces for new features including AMQP client interface and federated message delivery between distinct nodes.}
+		    \item{Supervised efforts of two test engineers as well as creation of user documentation for software release}
+		  \end{itemize}
+		\resitem{Test Platform Developer - Proposed, designed and developed automated testing platform for web Services testing with emphasis on team communication and auditing to help with agile development }
+		  \begin{itemize}
+		    \item{Developed multithreaded clients capable of running test cases using commercial open source tools (SoapUI), software sdk, and legacy sdk clients.  Tool's functionality include SOAP requests and responses, SSH commands, software log recording, and testing for dynamic values.  Increased functional regression test portfolio from 30 tests to over 120 while decreasing testing responsibility to 1 engineeer.}
+		    \item{Organized test cases and test results into central MySQL database for a write once, run with any client approach}
+		    \item{Published test case results to internal website using Django Framework for developers to analyze results including software logs organized by test step}
+		    \item{Developed Bash scripts to install software builds in 14 node, clustered test environment integrating with F5 Load Balancers and IBM Datapowers. Reduced deployment time of release candidate builds to minutes as opposed to hours.  Entered custom values for each server into install prompt using PExpect.}
+		    \item{Created C\# console application to automate test document creation in Microsoft Word, reduced budgeted documentation time from a week to a half day allowing for more time to write tests.  Integrated test case database with JIRA requirements database}
+		  \end{itemize}
+		\resitem{Lead Test Engineer Seros Product Line}
+		  \begin{itemize}
+		    \item{Developed testing framework using Selenium-RC automating tool to perform functional tests  on web portals, recording screen shots for all tests as well as verifying web elements were present.  Created base test framework that was tailored to three distinct products; reducing test development time. Adapted tool to work with asynchronous, dynamic web pages as well as testing with Firefox and Internet Explorer}
+		    \item{Developed scripts to simulate network environments with heavy latency and lower throughput using TC Linux command to test network adaption software functionality}
+		  \end{itemize}
+	\end{itemize}
+
+\end{itemize}
+
+
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheading{University of Virginia}{Charlottesville, VA}{Masters of Science in Systems Engineering}{Sep. 2007 - Aug. 2009}
+	\begin{itemize}
+	    \resitem{Thesis: ''A Utility-Based Content Adaptation Scheme for Low Capacity Wireless Video Surveillance Systems''}
+	\end{itemize}
+\item
+	\ressubheading{University of Virginia}{Charlottesville, VA}{Bachelor of Science in Systems Engineering}{Sep. 2003 - May 2007}
+	
+
+\end{itemize}
+
+
+\resheading{Skills}
+
+\begin{description}
+\item[Languages:]
+Java, Groovy, Python, Bash Shell, C\#
+\item[Test Frameworks and Other Software:]
+SoapUI, Selenium, MySQL, Django
+\item[Operating Systems:]
+Linux, Windows 7 
+\item[Miscellaneous:]
+TS Clearance with SCI, Security+ Certified
+\end{description}
+
+\resheading{Other}
+ \begin{itemize}
+\item
+  \ressubheading{Assistant Coach NOVA Cowboys Youth Football}{Alexandria, VA}{Defensive Coordinator}{June 2011 - November 2011}
+\item
+  \ressubheading{System Engineering Design Symposium at the University of Virginia}{Charlottesville, VA}{Judge}{2010 \& 2011}
+    \begin{itemize}
+	\resitem{Responsible for judging IEEE conference papers}
+    \end{itemize}   
+    
+\item
+  \ressubheading{Robotic Systems Design Camp}{Charlottesville, VA}{Head Counsoler}{Summer 2007 \& Summer 2008}
+	\begin{itemize}
+		\resitem{Designed and implemented week long curriculum to expose middle school students to math and Engineering.  Taught concepts as design and simulation using software tools (Netlogo) and the Lego NXT robot platform}
+	\end{itemize}
+
+\end{itemize}
+\end{document}
